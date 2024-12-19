@@ -25,26 +25,26 @@ body{
     color: var(--text);
 }
 
-#theme-btn{
-    border: 1px solid blue;
-    border-radius: 1rem;
-    padding: 5px;
-    padding-inline: 1rem;
-    background-color: var(--bg-theme-btn);
-    color: var(--text);
-    transition: scale 0.1s ease;
-    cursor: pointer;
-
-    &:hover{
-        border: 1px solid orange;
-        scale: 1.1;
-    }
+.pt1{
+    padding-top: 1rem;
 }
 
+.fs-4{
+    font-size: 3rem;
+    font-weight: 700;
+}
 
-nav{
-    padding: 1rem;
-    background-color: var(--bg-nav);
-    border-bottom-left-radius: 1.5rem;
-    border-bottom-right-radius: 1rem;
+.flex-row{
+    display: flex;
+    justify-content: space-around;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-color: #666;
+}
+
+h2{
+    margin-bottom: 0;
 }
